@@ -47,7 +47,9 @@ $medium: 900px;
        
 
 
-.wrapMe{}
+.wrapMe{
+    flex-wrap: wrap;
+}
 .forms {
  display: flex;
  flex: flex-wrap;
@@ -79,6 +81,7 @@ width: 200pt;
     width: 100%;
     border-radius: 12pt;
     color: #121212;
+    margin-bottom: 30px;
     .wrap {
         display: flex-wrap;
         background-color: lightgray;
