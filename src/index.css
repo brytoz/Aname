@@ -1,0 +1,26 @@
+
+
+@font-face {
+  font-family: 'Bold';
+  src: local('Bold'), url("./assets/fonts/Bold.otf") format('truetype');  
+}
+@font-face {
+  font-family: 'Regular';
+  src: local('Regular'), url("./assets/fonts/Regular.otf") format('truetype');  
+}
+@font-face {
+  font-family: 'Light';
+  src: local('Light'), url("./assets/fonts/Light.otf") format('truetype');  
+}
+
+
+.bold {
+  font-family: Bold ;
+}
+.regular {
+  font-family: Regular ;
+}
+.light {
+  font-family: Light ;
+}
+
